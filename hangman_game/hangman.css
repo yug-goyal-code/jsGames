@@ -1,0 +1,82 @@
+html{
+    font-size: 2vw;
+}
+body{
+    background-image: linear-gradient(to right,rgb(119, 245, 119),rgb(119, 228, 119),rgb(179, 248, 179));
+}
+h1{
+    font-size: 3rem;
+    background-image: linear-gradient(to right,rgb(65, 65, 211),rgb(120, 120, 211),rgb(159, 159, 221));
+    border-bottom :3px solid black;
+    margin: 0%;
+    text-align: center;
+    color: black;
+}
+#topic{
+    float: left;
+    width: 25%;
+    /* border-bottom: 5px solid black; */
+    margin: 1% 0% 2% 0%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+#topicNameReplace{
+    color:red;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+#hint{
+    float: left;
+    width:70%;
+    margin: 1% 2% 2% 2%;
+    /* border-bottom: 5px solid black; */
+}
+#toGetHintButton{
+    width: 20%;
+    height: 80%;
+    background-image: linear-gradient(to right,rgb(38, 168, 157),rgb(149, 212, 223));
+    float: right;
+    font-size: 1.3rem;
+}
+#hintWill{
+    float: left;
+    font-size: 1.3rem;
+}
+
+img{
+    width: 40%;
+    height: 25%;
+    border: 2px solid black;
+    margin: 1% 20% 0.5% 30%;
+}
+.alphabet{
+    display: inline-block;
+    width: 5%;
+    /* height: 30px; */
+    margin: 0.5%;
+    border: 1px solid blach;
+    font-size: 1.1rem;
+    font-weight: 900;
+    background-color: rgb(150, 150, 238);
+    border-radius: 7px;
+}
+#guessedWord{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0% 0% 1% 0%;
+}
+#playAgain{
+    width:15%;
+    margin: 1% 7% 1% 25%;
+    background-color: aquamarine;
+    /* height: 50px; */
+    font-size: 1.1rem;
+}
+#quit{
+    width: 15%;
+    margin: 1% 15% 1% 7%;
+    font-size: 1.1rem;
+    /* height: 50px; */
+    background-color: rgb(223, 221, 90);
+}

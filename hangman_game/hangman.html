@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman Game</title>
+        <link rel = "stylesheet" href = "hangman.css">
+    </head>
+    <body>
+        <header>
+            <h1>Hang man</h1>
+        </header>
+        <div>
+            <div id="topic">
+                <span>Topic is </span>
+                <span id = "topicNameReplace"></span>
+            </div>
+            <div id = "hint">
+                <span id = "hintWill"></span>
+                <button id = "toGetHintButton">Hint</button>
+            </div>
+        </div>
+        <div>
+            <img src = "hangmanimg1.png" id = "hangmanState">
+        </div>
+        
+        <div>
+            <p id = "guessedWord"></p>
+        </div>
+        <div>
+            <button id = "a" class = "alphabet" onclick="checkForCharacter(65)">A</button>
+            <button id = "b" class = "alphabet" onclick="checkForCharacter(66)">B</button>
+            <button id = "c" class = "alphabet" onclick="checkForCharacter(67)">C</button>
+            <button id = "d" class = "alphabet" onclick="checkForCharacter(68)">D</button>
+            <button id = "e" class = "alphabet" onclick="checkForCharacter(69)">E</button>
+            <button id = "f" class = "alphabet" onclick="checkForCharacter(70)">F</button>
+            <button id = "g" class = "alphabet" onclick="checkForCharacter(71)">G</button>
+            <button id = "h" class = "alphabet" onclick="checkForCharacter(72)">H</button>
+            <button id = "i" class = "alphabet" onclick="checkForCharacter(73)">I</button>
+            <button id = "j" class = "alphabet" onclick="checkForCharacter(74)">J</button>
+            <button id = "k" class = "alphabet" onclick="checkForCharacter(75)">K</button>
+            <button id = "l" class = "alphabet" onclick="checkForCharacter(76)">L</button>
+            <button id = "m" class = "alphabet" onclick="checkForCharacter(77)">M</button>
+            <button id = "n" class = "alphabet" onclick="checkForCharacter(78)">N</button>
+            <button id = "o" class = "alphabet" onclick="checkForCharacter(79)">O</button>
+            <button id = "p" class = "alphabet" onclick="checkForCharacter(80)">P</button>
+            <button id = "q" class = "alphabet" onclick="checkForCharacter(81)">Q</button>
+            <button id = "r" class = "alphabet" onclick="checkForCharacter(82)">R</button>
+            <button id = "s" class = "alphabet" onclick="checkForCharacter(83)">S</button>
+            <button id = "t" class = "alphabet" onclick="checkForCharacter(84)">T</button>
+            <button id = "u" class = "alphabet" onclick="checkForCharacter(85)">U</button>
+            <button id = "v" class = "alphabet" onclick="checkForCharacter(86)">V</button>
+            <button id = "w" class = "alphabet" onclick="checkForCharacter(87)">W</button>
+            <button id = "x" class = "alphabet" onclick="checkForCharacter(88)">X</button>
+            <button id = "y" class = "alphabet" onclick="checkForCharacter(89)">Y</button>
+            <button id = "z" class = "alphabet" onclick="checkForCharacter(90)">Z</button>
+        </div>        
+        <script src = "hangman.js"></script>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+html{
+    width:100%;
+    border: 1px solid
+}
+body{
+    background:#151837;
+    color: #34d76a;
+}
+h1{
+    font-size: 5vw;
+    color: rgb(226, 64, 64);
+    border: 2px solid;
+    margin: 0px auto;
+    text-align: center;
+    width: 90%;
+}
+.container1{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+span{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 2vw;
+}
+span p{
+    color: hotpink;
+    border: 1px solid;
+
+}
+/* .container2{
+    border: 1px solid orange;
+    width: 100%;
+    
+} */
+.playerOption, .computerOption{
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #34d76a;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.playerOption img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+.computerOption img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.choices{
+    clear: both;
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* border: 1px solid black; */
+}
+.choices span{
+    width: 33%;
+    /* border: 1px solid black; */
+}
+.choices span button{
+    border-radius: 50px;
+    font-size: 3vw;
+}
+
